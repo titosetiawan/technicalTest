@@ -19,7 +19,7 @@ public class ChecklistService {
 
     public List<Checklist> getChecklistByNoteId(Long noteId) {
         return checklistRepository.findByNoteId(noteId);
-    } 
+    }
 
     public Checklist createChecklist(String itemText, Notes id) {
 
